@@ -1,6 +1,11 @@
 body {
     background-color: rosybrown;
 }
+h1 {
+	font-family: Helvetica;
+	color: black;
+	text-align: center;
+}
 h3{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -13,7 +18,8 @@ div{
 #menuBG{
     width: 400px;
     height: 470px;
-    margin: 60px auto;
+    margin: 10px auto;
+
 }
 #frmMenu{
     width: 400px;
@@ -35,6 +41,11 @@ div{
     height: 200px;
     float: right;
 }
+.center {
+	width:200px;
+	height:200px;
+	float:left;
+	}
 #showText{
     width: 200px;
     height: 190px;
@@ -52,12 +63,12 @@ div{
     border: 1px solid green;
     color: white;
     padding: 15px 32px;
-    text-align: center;
+    text-align: justify;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50%;
+    display: block;
     
 }
 #btnOrder:hover{
