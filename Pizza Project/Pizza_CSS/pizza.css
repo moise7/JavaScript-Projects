@@ -1,0 +1,65 @@
+body {
+    background-color: rosybrown;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+div{
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menuBG{
+    width: 400px;
+    height: 470px;
+    margin: 60px auto;
+}
+#frmMenu{
+    width: 400px;
+    height: 200px;
+}
+#totalPrice{
+    width:200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.right{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+#showText{
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+#btnOrder {
+    background-color: #4CAF50;
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+#btnOrder:hover{
+    background-color: red;
+}
