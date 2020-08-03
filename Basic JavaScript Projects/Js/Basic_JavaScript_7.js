@@ -1,8 +1,16 @@
 var x = 10;
-function Add_number(){
-    console.log(30+x + "<br>")
+function Add_number_1(){
+   console.log(30+ X + "<br>");
+    function Add_number_2(){
+        console.log(X + 100);
+    }
+    Add_number_1();
+    Add_number_2();
 }
-function Time_function(){
+if (3<6){
+    document.write("The left number is smaller than the number on the right")
+}
+function Time_Function(){
     var Time = new Date().getHours();
     var Reply;
     if (Time<24 == Time>0){
