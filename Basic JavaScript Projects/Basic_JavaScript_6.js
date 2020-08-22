@@ -14,7 +14,7 @@ function Vehicle(make, model, year, color){
     var Emily = new Vehicle("Jeep", "Trail", 2020,"White");
 function myFunction(){
        document.getElementById("Keywords_and_Constructors").innerHTML = "Moise drives a "+ Moise.vehicle_color + "-colored" + Moise.vehicle_model + " manufactured in " + Moise.vehicle_year;
-    function Nested_Function(){
+    funtion Nested_Function(){
         var Starting_point = 8;
         return Starting_point;
     }
