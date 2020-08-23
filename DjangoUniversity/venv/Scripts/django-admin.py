@@ -1,4 +1,4 @@
-#!C:\Users\MB New Vision\Desktop\The Tech Academy\DjangoUniversity\venv\Scripts\python.exe
+#!C:\Users\MB New Vision\Desktop\DjangoUniversity\venv\Scripts\python.exe
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
