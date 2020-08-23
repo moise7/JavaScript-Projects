@@ -12,3 +12,7 @@ class DjangoClasses(models.Model):
 Spanish = DjangoClasses.objects.update_or_create(Title="Spanish", Course_Number=244, Instructor_Name="Jorge Gonzalez", Duration=90)
 Physics = DjangoClasses.objects.update_or_create(Title="Physics", Course_Number=362, Instructor_Name="Suzanne Thompson", Duration=90)
 Calculus = DjangoClasses.objects.update_or_create(Title="Calculus", Course_Number=455, Instructor_Name="Tim Lee", Duration=90)
+
+
+def __str__(self):
+   return self.name
